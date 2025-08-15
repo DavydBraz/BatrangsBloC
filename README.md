@@ -14,17 +14,6 @@ Resetar → Zera a contagem e remove todos os Batarangs.
 Flutter
 flutter_bloc
 
-📂 Estrutura do Projeto
-lib/
- ├── bloc/
- │    ├── counter_bloc.dart   # Lógica do contador
- │    ├── counter_event.dart  # Definição dos eventos
- │    └── counter_state.dart  # Definição do estado
- ├── pages/
- │    └── counter_page.dart   # Tela principal com UI
- ├── myapp.dart               # Configuração principal
- └── main.dart                # Ponto de entrada
-
 🔄 Fluxo do BloC
 
 Eventos (CounterEvent) → Representam as ações que o usuário pode realizar:
